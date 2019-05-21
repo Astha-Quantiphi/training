@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <!-- <script>
+        function myFunction(){
+            document.getElementById('demo').innerHTML= "little superstar";
+
+        }
+        </script> -->
+</head>
+
+<body>
+    <h1>welcome to the page</h1>
+    <p id="demo">Show me the pattern</p>
+    <button type="button" onclick="myFunction()">show</button>
+    <script>
+function myFunction(){
+    // document.getElementById("demo").innerHTML = "";
+
+        var ptrn, i, j;
+        var x = 5;
+        for (i = 1; i <= x; i++) {
+            for (j = 1; j <= i; j++) {
+
+                if (j <= i) {
+                    document.write("*");
+                }
+            }
+            document.write("<br/>");
+
+            // document.getElementById("demo").innerHTML = ptrn;
+
+        }
+        }
+    </script>
+    <!--  <button type="button" onclick="myFunction().style.fontSize= '30PX' ">click me</button>-->
+</body>
+
+</html>
